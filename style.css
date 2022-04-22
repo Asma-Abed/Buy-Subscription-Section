@@ -1,0 +1,119 @@
+/* #F3F3F7, #202240, #9633CC, #9494A3, #FCC83C, #D498F4 */
+/* Merriweather: 900, 
+Poppins: 500, 600, 700 */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  color: #171435;
+}
+.section-sub {
+  padding: 9.6rem 0;
+}
+.container {
+  max-width: 120rem;
+  background-color: #f4f5fa;
+  margin: 0 auto;
+  padding: 3.2rem;
+  position: relative;
+  z-index: 0;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.primary-title {
+  font-family: "Merriweather";
+  font-weight: 900;
+  font-size: 3.2rem;
+  text-align: center;
+  padding: 0 21.4rem;
+  margin-bottom: 2.4rem;
+}
+.description {
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-align: center;
+  padding: 0 14.7rem;
+  margin-bottom: 8rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0 3.2rem;
+  gap: 6.4rem;
+  margin-bottom: 5.6rem;
+}
+.sub-box {
+  background-color: #fff;
+  padding: 4rem;
+  border-radius: 1.4rem;
+  position: relative;
+}
+.sub-box::before {
+  content: "";
+  padding: 16.3rem 14.25rem;
+  border-radius: 1.4rem;
+  position: absolute;
+  top: -2.4rem;
+  left: -2.4rem;
+  z-index: -1;
+}
+.box-1::before {
+  background-color: #fffbec;
+}
+.box-2::before {
+  background-color: #f9ecff;
+}
+.box-3::before {
+  background-color: #eceeff;
+}
+.plan-name {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-top: 1.6rem;
+  margin-bottom: 0.4rem;
+}
+.plan-feature,
+.plan-price {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 1.6rem;
+}
+.plan-price {
+  margin-bottom: 4rem;
+}
+.plan-price span {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+.plan-sub {
+  text-align: center;
+}
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 500;
+  border-radius: 4rem;
+  padding: 1.6rem 2.4rem;
+}
+.btn-plan {
+  box-shadow: 0 4px 0 #e7e7fb;
+  color: #171435;
+  background-color: #f4f5fa;
+}
+.btn-sub {
+  color: #fff;
+  background-color: #171435;
+}
